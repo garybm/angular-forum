@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CategoryComponent } from './category/category.component';
+import { PostComponent } from './post/post.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CategoryComponent } from './category/category.component';
     AppComponent,
     HeaderComponent,
     LandingPageComponent,
-    CategoryComponent
+    CategoryComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
